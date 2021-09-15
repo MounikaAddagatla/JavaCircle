@@ -9,5 +9,8 @@ class Circle{
 		int y1_1=3, y2_1=-19;
 		int length_1 = Math.sqrt((x2_1-x1_1)*(x2_1-x1_1)+(y2_1-y1_1)*(y2_1-y1_1));
 		System.out.println(length_1);
+		if(length>length_1) System.out.println("Second line is greater that first");
+		else if (length == length_1) System.out.println("Both lines are equal");
+		else System.out.println("First line is greater than second");
 	}
 }
